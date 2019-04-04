@@ -23,7 +23,7 @@
       <groupId>org.projectlombok</groupId>
       <artifactId>lombok</artifactId>
       <scope>provided</scope>
-      <version>${lombok.version}</version>
+      <version>0.11.0</version>
       <optional>true</optional>
     </dependency>
     <dependency>
