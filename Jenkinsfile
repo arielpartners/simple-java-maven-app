@@ -5,6 +5,7 @@ pipeline {
             steps {
 				// OK
                 sh 'mvn -B -DskipTests clean package'
+				nexusPolicyEvaluation failBuildOnNetworkError: false, iqApplication: selectedApplication('sandbox-application'), iqStage: 'build', jobCredentialsId: '9880fe95-7307-4700-8879-f836ea34bce0'
             }
         }
         stage('Test') {
