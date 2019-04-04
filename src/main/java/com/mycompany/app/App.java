@@ -1,4 +1,5 @@
 package com.mycompany.app;
+package org.apache.struts.helloworld.action;
 
 /**
  * Hello world!
